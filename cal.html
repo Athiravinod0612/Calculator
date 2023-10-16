@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="mainBody">
+        <div class="calculator">
+            <div>
+                <input type="text" class="num"  id="num"/>
+            </div>
+
+            <div class="row">
+                <button onclick="cleartxt()" value="">C</button>
+                <button onclick="delBtn()" >DEL</button>
+                <button onclick="btnclick()" >%</button>
+                <button onclick="btnclick('/')" >/</button>
+            </div>
+            <div class="row">
+                <button onclick="btnclick(7)" >7</button>
+                <button onclick="btnclick(8)" >8</button>
+                <button onclick="btnclick(9)" >9</button>
+                <button onclick="btnclick('*')" >*</button>
+            </div>
+            <div class="row">
+                <button onclick="btnclick(4)" >4</button>
+                <button onclick="btnclick(5)" >5</button>
+                <button onclick="btnclick(6)" >6</button>
+                <button onclick="btnclick('-')" >-</button>
+            </div>
+            <div class="row">
+                <button onclick="btnclick(1)" >1</button>
+                <button onclick="btnclick(2)" >2</button>
+                <button onclick="btnclick(3)" >3</button>
+                <button onclick="btnclick('+')" >+</button>
+            </div>
+            <div class="row">
+                <button onclick="btnclick(0)" >0</button>
+                <button onclick="btnclick('00')" >00</button>
+                <button onclick="btnclick('.')" >.</button>
+                <button onclick="eql()" >=</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="../calculator/cal.js"></script>
+
+</body>
+</html>
